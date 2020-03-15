@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BeachActivity.BeachActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/tv_time_beach"
+        android:layout_width="550dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/p10_time"
+        android:textColor="@color/white"
+        android:gravity="center"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imgv_beach"
+        android:layout_width="450dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_content"
+        android:src="@drawable/back_view"
+        android:padding="15dp"
+        android:layout_margin="30dp"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_center_beach"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/p10_1"
+        android:textColor="@color/blue"
+        android:gravity="center"
+        android:visibility="invisible"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_p10_story"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="@string/p02_1"
+        android:textColor="@color/mainColor"
+
+        android:visibility="invisible"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.3"
+        app:layout_constraintHorizontal_bias="0.95"
+        />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif_wink_afura"
+        android:layout_width="180dp"
+        android:layout_height="250dp"
+        android:src="@drawable/wink_afura"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+
+
+        android:layout_marginBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        />
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif_wink_max"
+        android:layout_width="180dp"
+        android:layout_height="250dp"
+        android:src="@drawable/wink_max"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+
+        android:layout_marginBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        />
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gif_wink_devil"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/wink_devil"
+        android:visibility="invisible"
+
+        android:layout_marginBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
